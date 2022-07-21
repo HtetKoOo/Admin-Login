@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div id="header">
+                <img src="./logo.png" width="100em" height="100em">
+                <h1 class="text">Burma Link Channel</h1>
+            </div>
+            <div id="loginLogo">
+                <img src="./login.svg" alt="login logo" width="70%">
+            </div>
+        </div>
+
+        <div class="right">
+            <div id="Form">
+                <h3 class="text" id="head">Admin Sign In</h3>
+                <form>
+                    <div>
+                        <label id="label" class="text" for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label id="label" class="text" for="pw">Password:</label>
+                        <input type="password" id="pw" name="password">
+                    </div>
+                    <div class="end">
+                        <input type="checkbox" id="remember">
+                        <label class="text" for="remember">Remember Me</label>
+                    </div>
+                    <div class="end" onclick="submit()"><button class="text" id="signin" type="submit">Sign In</button>
+                    </div>
+                    <div id="center" class="text">Forget password</div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./login.js"></script>
+</body>
+
+</html>

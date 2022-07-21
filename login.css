@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 30px; */
+    background-color: rgb(31, 31, 71);
+    height: 700px;
+    padding: 0;
+}
+.left{
+    width: 50%;
+}
+#loginLogo{
+    display: flex;
+    justify-content: center;
+}
+#header{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+#Form{
+    background-color: rgb(20, 20, 41);
+    font-size: 20px;
+    padding: 10px 30px 5px;
+    border-radius: 5px;
+    width: 50%;
+}
+form > div {
+    padding: 15px;
+    margin-top:10px ;
+}
+.text{
+    color: white;
+}
+#label{
+    display: block;
+}
+input{
+    border-radius: 5px;
+}
+#head{
+    margin: auto;
+}
+#email,#pw{
+    width: 100%;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.end{
+    display: flex;
+    justify-content: end;
+}
+#signin{
+    background-color: rgb(97, 29, 245);
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    width: 150px;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    
+}
